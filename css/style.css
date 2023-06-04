@@ -64,6 +64,7 @@ body{
   color: #5C5C5E;
   min-width: 320px;
   overflow-x: hidden ;
+  margin: 0 auto;
 }
 
 .header{
