@@ -64,7 +64,7 @@ body{
   color: #5C5C5E;
   min-width: 320px;
   overflow-x: hidden ;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .header{
@@ -127,7 +127,7 @@ body{
 .top{
   /* min-height: calc(100vh - 81px); */
   margin: 0 auto;
-  width: 1920px;
+  max-width: 1920px;
   min-height: 1000px;
   background-image: url(../images/top-pg.jpg);
   background-repeat: no-repeat;
@@ -536,14 +536,12 @@ body{
 }
 
 .contacts__form{
-  flex-basis: 600px;
+  width: 600px;
 }
 
 .contacts__text{
   font-size: 13px;
 }
-
-.acontacts__email{}
 
 .form{
   margin-bottom: 10px;
@@ -697,6 +695,10 @@ body{
   .top{
     text-align: center;
   }
+
+  .contacts__form{
+    width: 500px;
+  }
 }
 
 @media (max-width:568px){
@@ -762,6 +764,10 @@ body{
     gap: 30px;
   }
 
+  .contacts__form{
+    width: 400px;
+  }
+
 }
 
 @media (max-width:420px){
@@ -783,6 +789,10 @@ body{
 
   .menu{
     width: 100%;
+  }
+
+  .contacts__form{
+    width: 300px;
   }
 
 }
