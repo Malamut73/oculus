@@ -125,6 +125,8 @@ body{
 
 .top{
   /* min-height: calc(100vh - 81px); */
+  margin: 0 auto;
+  width: 1920px;
   min-height: 1000px;
   background-image: url(../images/top-pg.jpg);
   background-repeat: no-repeat;
